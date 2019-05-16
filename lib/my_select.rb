@@ -9,6 +9,5 @@ end
  last << (collection[i])
  end
  "false"
- end
  last
  end
