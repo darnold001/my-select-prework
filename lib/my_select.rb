@@ -5,6 +5,8 @@ def my_select(collection)
 result << yield(collection[i])
     i= i+ 1
 end
- result
+ if result == true 
+ last << (collection[i])
  end
- 
+ "false"
+ end
