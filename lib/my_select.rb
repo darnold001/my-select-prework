@@ -2,7 +2,7 @@ def my_select(collection)
     i = 0 
     result =[]
     while i < collection.length
-    if yield (account[i]) == true
+    if yield(account[i]) == true
       result <<(collection[i])
     end 
     i= i+ 1
