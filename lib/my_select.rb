@@ -3,9 +3,9 @@ def my_select(collection)
     result =[]
     outcome = []
     while i < collection.length
-    if y
-result << yield(outcome[i])
-  outcome == 
+    if yield (account[i]) == true
+      result <<(collection [i])
+    end 
     i= i+ 1
 end
  result
