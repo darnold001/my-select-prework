@@ -3,11 +3,10 @@ def my_select(collection)
     result =[]
     while i < collection.length
    result << yield(decision[i])
-    if i == true
-      decision.push(i)
-    else 
-      "false"
-    end
+    #if i == true
+     # result.push(i)
+    #else 
+     # "false"
     i= i+ 1
   
 end
