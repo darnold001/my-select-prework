@@ -3,7 +3,7 @@ def my_select(collection)
     result =[]
     while i < collection.length
 yield(collection[i])
-    result<< (collection [i == true])
+    result<< (collection [i = true])
      # result.push(i)
     #else 
      # "false"
