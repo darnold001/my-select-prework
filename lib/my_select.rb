@@ -4,7 +4,7 @@ def my_select(collection)
     outcome = []
     while i < collection.length
     if yield (account[i]) == true
-      result <<(collection [i])
+      result <<(collection[i])
     end 
     i= i+ 1
 end
