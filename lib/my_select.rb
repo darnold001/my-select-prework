@@ -6,7 +6,7 @@ def my_select(collection)
     #if i == true
      # result.push(i)
     #else 
-      "false"
+     # "false"
     i= i+ 1
   end
 end
