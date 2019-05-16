@@ -8,7 +8,7 @@ def my_select(collection)
     #else 
      # "false"
     i= i+ 1
-  end
+  
 end
  result
  end
